@@ -68,9 +68,7 @@ export default function Game() {
     setXIsNext(!xIsNext);
   }
 
-  function jumpTo(nextMove) {
-    // TODO
-  }
+  function jumpTo(nextMove) {}
 
   const moves = history.map((squares, move) => {
     let description;
